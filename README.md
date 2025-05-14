@@ -2,7 +2,8 @@
 
 ## 📜 Introdução
 O tsuru é um dos origamis mais tradicionais e simbólicos da cultura japonesa, representando longevidade, sorte e felicidade. Segundo a lenda, quem fizer 1000 tsurus pode ter um desejo realizado.
-![1000275780](https://github.com/user-attachments/assets/5a842dd5-e67b-4f4a-80a6-aad80f46a2ff)
+
+<img src="![1000275780](https://github.com/user-attachments/assets/5a842dd5-e67b-4f4a-80a6-aad80f46a2ff)" width="70px" height="70px">
 
 ## 📝 Materiais Necessários
 1 folha de papel quadrado (15x15cm é um bom tamanho para iniciantes)
