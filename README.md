@@ -7,7 +7,8 @@ O tsuru é um dos origamis mais tradicionais e simbólicos da cultura japonesa, 
 
 ## 📝 Materiais Necessários
 1 folha de papel quadrado (15x15cm é um bom tamanho para iniciantes)
-![1000275762](https://github.com/user-attachments/assets/78ad8ab6-fadc-468c-b737-eb24be0d556b)
+![1000275762]()
+<img src="https://github.com/user-attachments/assets/78ad8ab6-fadc-468c-b737-eb24be0d556b" width="400px" height="600px">
 
 Superfície plana para dobrar
 
