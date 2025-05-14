@@ -46,6 +46,7 @@ O tsuru é um dos origamis mais tradicionais e simbólicos da cultura japonesa, 
 
 - Repita para a cauda
 <img src="https://github.com/user-attachments/assets/70a90f50-313b-4dec-8fb4-c4fdbba16790" width="400px" height="600px">
+
 - Dobre a ponta para baixo para formar a cabeça
 
 ## Passo 4: Finalização
