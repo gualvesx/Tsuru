@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <form class="login-form" action="/auth" method="POST">
+        <h2>Login</h2>
+        <div>
+            <div>
+                <label for="usuario">Usuário</label>
+            </div>
+            <div>
+                <input type="text" name="usuario" id="usuario" placeholder="Digite seu usuário" required>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="senha">Senha</label>
+            </div>
+            <div>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+            </div>
+        </div>
+        <div>
+            <button type="submit">Entrar</button>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Space";
+    src: url(../fonts/SpaceNova.otf);
+}
+
+html, body{ height: 100%; }
+
+body{
+    overflow: hidden;
+    background: #FF6A13;
+    background: linear-gradient(90deg, rgba(255, 106, 19, 1) 6%, rgba(29, 45, 106, 1) 100%);
+    font-family: Arial, sans-serif;
+}
+
+#canvas{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu{
+    padding: 10px;
+}
+
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+a.active{
+    background-color: #1D2D6A;
+    padding: 10px;
+    color: white!important;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-family: Space;
+    font-size: 10px;
+    color: #1D2D6A;
+}
+
+.menu ul li{
+    cursor: pointer;
+}
+
+.title{
+    font-family: Space;
+    color:  #FF6A13;
+}
+
+.container, main{
+    height: 100%;
+}
+
+/* Seção principal - onde o login ficará */
+/* Seção principal - onde o login ficará */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* Usa min-height em vez de height para garantir */
+    width: 100%;
+    position: relative;
+    padding: 20px; /* Espaçamento nas bordas em telas pequenas */
+}
+
+/* Estilo do Formulário de Login */
+.login-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 300px; /* Largura máxima */
+    border: 1px solid #FF6A13;
+    z-index: 10;
+    /* Centralização vertical adicional como garantia */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+
+.login-form h2 {
+    color: #FF6A13;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Space', sans-serif;
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #1D2D6A;
+    font-weight: bold;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #FF6A13;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+    outline: none;
+    border-color: #1D2D6A;
+    box-shadow: 0 0 5px rgba(29, 45, 106, 0.5);
+}
+
+.login-form button {
+    background-color: #FF6A13;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: all 0.3s;
+    font-family: 'Space', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.login-form button:hover {
+    background-color: #1D2D6A;
+    transform: translateY(-2px);
+}
+
+/* Chat Container */
+.chat-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Audiowide', sans-serif;
+    z-index: 10;
+}
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.chat-header {
+    background-color: #FF6A13;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-messages {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bot-message {
+    background-color: #f1f1f1;
+    text-align: left;
+}
+
+.user-message {
+    background-color: #1D2D6A;
+    color: white;
+    text-align: right;
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+
+.chat-input button {
+    padding: 8px 12px;
+    background-color: #FF6A13;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background-color: #1D2D6A;
+}
